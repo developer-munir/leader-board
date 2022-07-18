@@ -89,10 +89,12 @@ hr {
 lates course style
 -------------------
  */
-.lates-course-container {
-  background-color: #ffffff;
-  padding: 30px;
+.course-section {
   margin-top: 21px;
+  padding: 30px;
+  background-color: #ffffff;
+}
+.lates-course-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
@@ -140,7 +142,7 @@ lates course style
   margin-left: 10px;
   border: 1px solid black;
 }
-.fa-clock{
+.fa-clock {
   padding-left: 4px;
 }
 .date p {
@@ -152,18 +154,15 @@ lates course style
 /*-------------
  mobile devices
 --------------- */
-@media only screen and (max-width:688px) {
-  
+@media only screen and (max-width: 688px) {
 }
 /* ----------
 table devices
 ------------ */
-@media only screen and (min-width:689px) and (min-width:992px){
-  
+@media only screen and (min-width: 689px) and (min-width: 992px) {
 }
 /* --------
 desktop devices
 ------------ */
-@media only screen and (min-width:993px) and (min-width:1312px){
-  
+@media only screen and (min-width: 993px) and (min-width: 1312px) {
 }
