@@ -1,47 +1,99 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
 /*----------
  common styles 
 ------------*/
-.body{
-   font-family: 'Poppins', sans-serif; 
-   background-color: #F3F1FF;
+.body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3f1ff;
 }
-.main-container{
-   display: flex;
-   justify-content: center;
+.main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 /*--------------
 top players styles
 ---------------*/
-.top-players-container{
-   background-color: #ffffff;
-   width: 870px;
-   padding: 30px;
- }
- .players{
-   display: grid;
-   grid-template-columns: repeat(3,1fr);
-   grid-row-gap: 30px;
- }
- .section-title{
-   color: #562EFF;
-   font-size: 24;
-   margin-top: 3px
- }
- .player{
-   display: flex;
-   align-items: center;
+.top-players-container {
+  background-color: #ffffff;
+  width: 870px;
+  padding: 30px;
 }
-.player img{
-   height: 56px;
-   width: 56px;
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
 }
-.player p{
-   font-size: 18px;
-   padding-left: 16px;
- }
- hr{
-   border: 1px solid #D1D1D1;
- }
+.section-title {
+  color: #562eff;
+  font-size: 24;
+  margin-top: 3px;
+}
+.player {
+  display: flex;
+  align-items: center;
+}
+.player img {
+  height: 56px;
+  width: 56px;
+}
+.player p {
+  font-size: 18px;
+  padding-left: 16px;
+}
+/* ---------------
+horizontal line style 
+-----------------*/
+hr {
+  border: 1px solid #d1d1d1;
+  margin-top: 19px;
+  margin-bottom: 18px;
+}
+/* --------
+ top blogs style
+ ----------- */
+.top-blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 26px;
+  margin-bottom: 42px;
+}
+.blogs {
+  display: flex;
+  align-items: center;
+}
+.blog-banner img {
+  width: 177px;
+  height: 117px;
+}
+.blog-information {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
+.blog-link h2 {
+  font-size: 20px;
+}
+.author-name {
+  font-size: 16px;
+  text-decoration: none;
+  color: #562eff;
+}
+
+/*-----------------
+lates course style
+-------------------
+ */
+.course-banner img {
+  width: 224px;
+  height: 104px;
+}
+.article h3{
+  font-size: 20px;
+}
+.course-author{
+  font-size: 14px;
+}
